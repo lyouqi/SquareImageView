@@ -1,5 +1,3 @@
-package com.zlg.rewriteViews;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.ImageView;
