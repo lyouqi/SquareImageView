@@ -1,6 +1,8 @@
 # SquareImageView
-一个安卓正方形ImgeView控件
 
+English on the bottom
+
+一个安卓正方形ImgeView控件
 使用方式：
 1：导入SqueraImageView到您的项目
 
@@ -21,3 +23,25 @@
         //修改成super.onMeasure(heightMeasureSpec, heightMeasureSpec);
         super.onMeasure(widthMeasureSpec, widthMeasureSpec);
     }
+
+
+This is a squera ImageView On Android
+
+Usage:
+1: copy SqueraImageView to your project.
+2: setting the width to a value, and height to any value on the XML file
+
+  <yourpackage.SquareImageView
+            android:id="@+id/card_image_view"
+            android:layout_width="fill_parent"
+            android:layout_height="360dp"
+            android:scaleType="fitXY" />
+            
+  3: If you want to set the weidth eques to the height, just change the function below as the note
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+    
+        //修改成super.onMeasure(heightMeasureSpec, heightMeasureSpec);
+        super.onMeasure(widthMeasureSpec, widthMeasureSpec);
+    }
+
